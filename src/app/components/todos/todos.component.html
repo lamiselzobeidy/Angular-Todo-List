@@ -1,0 +1,11 @@
+<div class="pt-3" id="body">
+<h1>Todo List</h1>
+<div id="tododiv" class="input-group mb-3 mt-5 px-5 pb-2 w-50 mx-auto">
+    <input name="YourTodo" style="background-color:#d5e9e89a;" type="text" class="form-control" placeholder="enter a todo.." aria-label="Recipient's username" aria-describedby="button-addon2">
+    <div class="input-group-append">
+      <button (click)="addTodo()" class="btn btn-outline-warning bg-info" type="button" id="button-addon2">Add</button>
+    </div>
+  </div>
+<app-todo-item *ngFor="let todo of todos" [todo]="todo">
+</app-todo-item>
+</div>

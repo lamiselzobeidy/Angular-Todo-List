@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+#body{
+    background-image: url("./todo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+h1{
+    font-size: 90px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: rgb(173, 51, 38);
+}
+.btn{
+    background-color:#909bc6 ;
+}

@@ -1,0 +1,7 @@
+<div style="background-color:#d5e9e8e5;" class=" w-50 mx-auto mt-2" [ngClass]="setClasses()">
+    <p>
+        <input (change)="onToggle(todo)" class="ml-2 mr-2" type="checkbox" />
+        {{ todo.title }}
+        <button (click)="onDelete(todo)" class="btn btn-danger mr-3">X</button>
+    </p>
+</div>

@@ -1,0 +1,31 @@
+.is-complete {
+    text-decoration: line-through;
+}
+
+.btn-danger {
+    border-radius: 70%;
+    float: right;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.todo{
+    background-color:#d5e9e8e5;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    border: 2px solid #b8d9e6;
+    border-radius: 4px;
+    background: #f4f4f4;
+}
+/* #p{
+    
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border: 2px solid #b8d9e6;
+    border-radius: 4px;
+    background: #f4f4f4;
+} */
